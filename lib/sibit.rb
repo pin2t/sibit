@@ -74,6 +74,20 @@ class Sibit
     end
   end
 
+  class BlockchainApi
+    def price(cur = 'USD')
+    end
+
+    def balance(address)
+    end
+
+    def utxo(addresses)
+    end
+
+    def latest()
+    end
+  end
+
   # This HTTP client will be used by default.
   def self.default_http
     http = Net::HTTP.new('blockchain.info', 443)
